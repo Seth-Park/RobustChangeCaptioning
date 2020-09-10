@@ -20,8 +20,8 @@ Extracting this file will create `data` directory and fill it up with CLEVR-Chan
 
 2. Preprocess data
 
-We are providing the preprocessed data here: [google drive link](https://drive.google.com/file/d/1FA9mYGIoQ_DvprP6rtdEve921UXewSGF/view?usp=sharing)
-You can skip the above procedure and just download them:
+We are providing the preprocessed data here: [google drive link](https://drive.google.com/file/d/1FA9mYGIoQ_DvprP6rtdEve921UXewSGF/view?usp=sharing).
+You can skip the procedures explained below and just download them using the following command:
 ```
 python google_drive.py 1FA9mYGIoQ_DvprP6rtdEve921UXewSGF ./data/clevr_change_features.tar.gz
 cd data
