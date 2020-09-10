@@ -80,6 +80,7 @@ The command above will take the model snapshot at 9000th iteration and run infer
 
 ## Evaluation
 * Caption evaluation
+
 To evaluate captions, we need to first reformat the caption annotations into COCO eval tool format (only need to run this once). After setting up the COCO caption eval tools ([github](https://github.com/tylin/coco-caption)), make sure to modify `utils/eval_utils.py` so that the `COCO_PATH` variable points to the COCO eval tool repository. Then, run the following command:
 ```
 python utils/eval_utils.py
@@ -104,6 +105,7 @@ python evaluate_by_IOU.py --results_dir ./experiments/dynamic/test_output/captio
 By default, this command will compute captioning scores on the top 25% difficult examples based on IOU. However, you can change the percentage or compute for easiest examples by modifying `evalaute_by_IOU.py`
 
 * Pointing Game evaluation
+
 Run the following command to run Pointing Game evaluation:
 ```
 python evaluate_pointing.py --results_dir ./experiments/dynamic/test_output/attentions --anno ./data/change_captions_with_bbox.json --type_file ./data/type_mapping.json
