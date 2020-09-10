@@ -8,7 +8,7 @@ This repository contains the code and dataset for the following paper:
 2. `cd RobustChangeCaptioning`
 3. Make virtual environment with Python 3.5 (`mkvirtualenv rcc -p python3.5`)
 4. Install requirements (`pip install -r requirements.txt`)
-5. Setup COCO caption eval tools ([github](https://github.com/tylin/coco-caption)) (Since the repo only supports Python 2.7, either create a separate virtual environment with Python 2.7 or modify the code to be compatible with Python3.5).
+5. Setup COCO caption eval tools ([github](https://github.com/tylin/coco-caption)) (Since the repo only supports Python 2.7, either create a separate virtual environment with Python 2.7 or modify the code to be compatible with Python 3.5).
 
 ## Data
 1. Download data from here: [google drive link](https://drive.google.com/file/d/1HJ3gWjaUJykEckyb2M0MB4HnrJSihjVe/view?usp=sharing)
@@ -19,6 +19,7 @@ tar -xzvf clevr_change.tar.gz
 Extracting this file will create `data` directory and fill it up with CLEVR-Change dataset.
 
 2. Preprocess data
+
 We are providing the preprocessed data here: [google drive link](https://drive.google.com/file/d/1FA9mYGIoQ_DvprP6rtdEve921UXewSGF/view?usp=sharing)
 You can skip the above procedure and just download them:
 ```
