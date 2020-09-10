@@ -1,0 +1,27 @@
+exp_name: 'dynamic'
+gpu_id: [0]
+logger:
+    display_id: 9908
+model:
+    change_detector:
+        input_dim: 2048 + 4
+    speaker:
+        embed_input_dim: 3078
+        embed_dim: 512
+        input_dim: 1024 + 2
+        vocab_size: 76
+        seq_length: 23
+
+data:
+    dataset: 'rcc_dataset'
+    vocab_json: './data/vocab.json'
+    h5_label_file: './data/labels.h5'
+    type_mapping_json: './data/type_mapping.json'
+    train:
+        batch_size: 128
+train:
+    max_iter: 10000
+    optim:
+        type: 'adam'
+        lr: 0.001
+        weight_decay: 0.0
