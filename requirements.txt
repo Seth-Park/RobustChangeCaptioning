@@ -2,7 +2,7 @@ certifi==2018.4.16
 chardet==3.0.4
 cloudpickle==0.5.3
 cycler==0.10.0
-dask==0.17.5
+dask==2021.10.0
 decorator==4.3.0
 h5py==2.9.0
 idna==2.6
