@@ -6,7 +6,7 @@ dask==0.17.5
 decorator==4.3.0
 h5py==2.9.0
 idna==2.6
-joblib==0.13.2
+joblib==1.2.0
 kiwisolver==1.0.1
 matplotlib==2.2.2
 networkx==2.1
